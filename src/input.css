@@ -1,3 +1,10 @@
+@import "../css/style.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    .bg-cover {
+      background-image: url('../img/cjc-bg.jpg');
+    }
+  }
